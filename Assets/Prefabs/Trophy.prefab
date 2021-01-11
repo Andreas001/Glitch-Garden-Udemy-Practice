@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4159853012953656708}
   - component: {fileID: 4159853012953656709}
+  - component: {fileID: 1064226597749318379}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -52,6 +53,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1064226597749318379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4159853012953656710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36233f7da5fbb85478b1620f6311b6ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startCost: 100
 --- !u!1 &4159853013093218623
 GameObject:
   m_ObjectHideFlags: 0
